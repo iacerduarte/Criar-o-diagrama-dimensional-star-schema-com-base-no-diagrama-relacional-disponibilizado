@@ -8,7 +8,7 @@ Criar um modelo dimensional que permita analisar a atuação dos professores, os
 Nota: Conforme os requisitos do desafio, dados relativos aos alunos foram desconsiderados nesta modelagem.<br>
 
 ##  🛠️ Tecnologias Utilizadas
-•	Modelagem Dimensional: Star Schema.
+•	Modelagem Dimensional: Star Schema.<br>
 •	Ferramenta de Design: MySQL Workbench. <br>
 
 ##  🏗️ Estrutura do Modelo (Star Schema)
@@ -24,7 +24,7 @@ Armazena as métricas e as chaves estrangeiras que conectam o contexto da análi
 •	Dim_Disciplina: Dados das matérias ministradas (nome, carga horária teórica/prática).
 •	Dim_Data: Tabela de tempo criada para suprir a necessidade de análise temporal (granularidade: dia, mês, ano, semestre e trimestre).<br>
 
-##📅 Modelagem da Dimensão Data
+##  📅 Modelagem da Dimensão Data
 Como o modelo relacional original era limitado em datas, foram simulados campos para permitir análises como:
 •	Data de oferta das disciplinas.
 •	Data de início e conclusão de períodos letivos.
