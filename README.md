@@ -1,17 +1,17 @@
 # Criar-o-diagrama-dimensional-star-schema-com-base-no-diagrama-relacional-disponibilizado
 
-##Desafio de Modelagem Dimensional - Star Schema (Foco: Professor)
+##  Desafio de Modelagem Dimensional - Star Schema (Foco: Professor)
 Este repositório contém a resolução do desafio de modelagem de dados para um sistema acadêmico. O objetivo principal foi transformar um diagrama relacional em um esquema em estrela (Star Schema) voltado para a análise de dados dos professores.<br>
 
-##🎯 Objetivo do Projeto
+##  🎯 Objetivo do Projeto
 Criar um modelo dimensional que permita analisar a atuação dos professores, os cursos ministrados e os departamentos aos quais estão vinculados, facilitando a tomada de decisão e a geração de relatórios gerenciais.
 Nota: Conforme os requisitos do desafio, dados relativos aos alunos foram desconsiderados nesta modelagem.<br>
 
-##🛠️ Tecnologias Utilizadas
+##  🛠️ Tecnologias Utilizadas
 •	Modelagem Dimensional: Star Schema.
 •	Ferramenta de Design: MySQL Workbench. <br>
 
-##🏗️ Estrutura do Modelo (Star Schema)
+##  🏗️ Estrutura do Modelo (Star Schema)
 A modelagem foi dividida entre uma tabela central de fatos e tabelas de dimensão que fornecem o contexto: <br>
 
 1. Tabela Fato: Fato_Professor
