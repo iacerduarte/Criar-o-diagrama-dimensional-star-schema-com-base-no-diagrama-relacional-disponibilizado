@@ -25,8 +25,8 @@ Armazena as métricas e as chaves estrangeiras que conectam o contexto da análi
 •	Dim_Data: Tabela de tempo criada para suprir a necessidade de análise temporal (granularidade: dia, mês, ano, semestre e trimestre).<br>
 
 ##  📅 Modelagem da Dimensão Data
-Como o modelo relacional original era limitado em datas, foram simulados campos para permitir análises como:
-•	Data de oferta das disciplinas.
-•	Data de início e conclusão de períodos letivos.
+Como o modelo relacional original era limitado em datas, foram simulados campos para permitir análises como: <br>
+•	Data de oferta das disciplinas. <br>
+•	Data de início e conclusão de períodos letivos. <br>
 •	Histórico de oferta de cursos.
 ________________________________________
